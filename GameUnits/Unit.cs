@@ -1,0 +1,24 @@
+using System;
+
+namespace GameUnits
+{
+    public abstract class Unit
+    {
+        private int movement;
+        public virtual int Health { get; set; }
+
+        public virtual float Cost { get; }
+
+        protected Unit(int movement, int health)
+        {
+            this.movement = movement;
+            Health = health;
+        }
+        public int Move()
+        {
+            Console.WriteLine("Casas movidas = " + movement);
+            return movement;
+        }
+
+    }
+}

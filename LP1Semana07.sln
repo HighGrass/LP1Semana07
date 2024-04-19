@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGame.csproj", "{85A8C9A6-AA87-4507-964A-99F2B50A224F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUnits", "GameUnits\GameUnits.csproj", "{2D9E4D9F-8845-432D-BF93-A60CCAE0C136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{85A8C9A6-AA87-4507-964A-99F2B50A224F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85A8C9A6-AA87-4507-964A-99F2B50A224F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85A8C9A6-AA87-4507-964A-99F2B50A224F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9E4D9F-8845-432D-BF93-A60CCAE0C136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9E4D9F-8845-432D-BF93-A60CCAE0C136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9E4D9F-8845-432D-BF93-A60CCAE0C136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9E4D9F-8845-432D-BF93-A60CCAE0C136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
