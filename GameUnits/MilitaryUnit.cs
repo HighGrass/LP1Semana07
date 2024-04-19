@@ -6,7 +6,7 @@ namespace GameUnits
         public int XP { get; private set; }
 
         public override int Health { get { return base.Health + XP; } }
-        public override float Cost { get { return base.Cost + XP; } }
+        public override float Cost { get { return XP + AttackPower; } }
 
         public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
         { // Unit(int, int)
