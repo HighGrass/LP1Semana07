@@ -10,8 +10,8 @@ namespace GameUnits
 
         public MilitaryUnit(int mov, int health, int attackPower) : base(mov, health)
         { // Unit(int, int)
-            AttackPower = attackPower;
             XP = 0;
+            AttackPower = attackPower;
         }
 
         public void Attack(Unit u)
