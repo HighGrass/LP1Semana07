@@ -6,6 +6,7 @@ namespace GameUnits
     {
         static void Main(string[] args)
         {
+            
             SettlerUnit settler = new SettlerUnit();
             MilitaryUnit military = new MilitaryUnit(2, 100, 20);
 
@@ -19,7 +20,6 @@ namespace GameUnits
             Console.WriteLine("Military Cost: " + military.Cost);
             military.Move();
 
-            
         }
     }
 }
